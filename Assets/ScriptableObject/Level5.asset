@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae713f1a27de47b42acde3f74450da0a, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  levelIndex: 3
+  levelName: Level_1
+  width: 6
+  height: 7
+  mapDataWidth: 6
+  mapDataHeight: 7
+  staticMapData: 010000000100000001000000010000000100000001000000010000000000000000000000000000000000000001000000010000000000000001000000000000000000000001000000010000000000000000000000020000000000000001000000010000000000000002000000020000000000000001000000010000000000000000000000000000000000000001000000010000000100000001000000010000000100000001000000
+  dynamicMapData:
+  - GridPosition: {x: 2, y: 3}
+    elementIndex: 3
+  - GridPosition: {x: 3, y: 2}
+    elementIndex: 4
+  - GridPosition: {x: 3, y: 3}
+    elementIndex: 3
+  - GridPosition: {x: 3, y: 4}
+    elementIndex: 3
